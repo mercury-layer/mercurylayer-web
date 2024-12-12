@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --primary-color: 10, 5, 67;
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
+}
+
+body {
+  color: rgb(var(--primary-color));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--primary-color))
+    )
+    rgb(var(--primary-color));
+}
+
+/* global.css */
+.mdx-content {
+  padding: 50px;
+  color: white;
+  background-color: #2b12bb;
+}
+
+
+.heading-text{
+  font-family: var(--header-font-family);
+  font-size: 32px;
+  font-weight: 600;
+  padding: 10px 0 25px 0;
+  color: var(--primary-text-color);
+}
+
+.sticky-sidebar {
+  position: sticky;
+  padding-left: 50px;
+  top: 0;
+  min-width: 250px;
+  width: 50%;
+  height: 400px; /* Full height of the viewport */
+  overflow-y: auto; /* Allows scrolling if the content overflows */
+  padding: 1rem;
+  background-color: #f8f9fa; /* Optional background color */
+  border-right: 1px solid #ddd; /* Optional border */
+}
+
+.main-content {
+  margin-left: 250px; /* Adjust based on the width of the sidebar */
+  padding: 1rem;
+}
+
+.sidebar-link {
+  display: block;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.sidebar-link:hover {
+  text-decoration: underline;
+}

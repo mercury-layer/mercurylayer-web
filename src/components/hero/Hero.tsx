@@ -14,12 +14,6 @@ const Hero = () => {
           <h3 className="text-lg font-medium mb-6">
             Blinded signing service: enabling multiparty computation statechains
           </h3>
-          <button
-            className="bg-white text-[#0B0742] px-6 py-2 rounded-md shadow-md font-semibold hover:bg-gray-200 transition"
-            onClick={() => (window.location.href = "https://api.mercurylayer.com")}
-          >
-            Status
-          </button>
         </section>
 
         {/* Video Section */}

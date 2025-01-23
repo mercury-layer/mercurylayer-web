@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>mercurylayer.com</title>
+        <title>mercurylayer.org</title>
         <link rel="icon" type="image/png" href="/favicon.png"></link>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM Mono"/>
       </Head>
@@ -26,7 +26,6 @@ export default function Home() {
       >
         <MainTable />
         <Hero/>
-        <MercuryDocs/>
       </main>
       <Footer />
     </>

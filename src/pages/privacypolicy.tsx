@@ -22,7 +22,7 @@ export default function Page() {
   return (
     <div className="privacy-policy">
       <Head>
-        <title>mercurylayer.com</title>
+        <title>mercurylayer.org</title>
         <link rel="icon" type="image/png" href="/favicon.png"></link>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM Mono"/>
       </Head>
